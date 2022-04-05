@@ -32,20 +32,17 @@ h1.cabecalho {
     background-color: #f3b14fe0;
     color: rgb(255, 0, 0);
     text-align: center;
-    
     width: 100vw;
     padding: 15px;
     box-shadow: 0px -5px 15px #ffbb00cb; 
-    transform: translate(-47px, -45px);
+     transform: translate(-47px, -45px);
 }
 nav{ 
-    
     transform: translate(-30px, -45px);
     margin: auto;
     background-color: #f3b14fe0;;
     width: 100%;
-    padding: 10px;
-    padding-left: 30px;
+    padding: 15px;
     box-shadow: 0px 3px 6px #ffbb008a;
  
 }
@@ -65,7 +62,7 @@ nav > a:hover{
     color: white;
 }
 
-main > article{
+main{
     background-color: rgba(59, 143, 182, 0.89);
     min-width: 300px;
     max-width: 1000px;
@@ -77,14 +74,15 @@ main > article{
 article > h1 {
     text-align: center;
     font-family: var(--fonte1);
-    padding: 20px; 
     font-size: 2em;
 }
 article > p {
     font-family: var(--fonte1);
+    text-align: justify;
     padding: 10px;
-    padding-top: 15px;
-    line-height: 30px;
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 2em;
     color: white;
     font-size: 1.3em;   
 }
