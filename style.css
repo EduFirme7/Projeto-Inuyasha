@@ -40,25 +40,26 @@ h1.cabecalho {
 nav{ 
     transform: translate(-30px, -45px);
     margin: auto;
-    background-color: #f3b14fe0;;
+    background-color: #cf3221;
     width: 100%;
     padding: 15px;
     box-shadow: 0px 3px 6px #ffbb008a;
  
 }
 nav > a{   
-    color: rgb(255, 0, 0);
+    color: #e69824;
     padding: 10px;
+    padding-left: 20px;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 7px;
-    margin: 10px;
+    margin: 0 30px;
     transition-duration: 1s;
 }
 nav > a:hover{
     text-decoration: underline;
-    background-color: rgba(255, 0, 0, 0.712);
+    background-color: #e69824;
     color: white;
 }
 
@@ -143,3 +144,17 @@ img.filme4{
     margin: auto;
 }
 
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+   
+}
+footer a.link{
+    text-decoration: none;
+    color:  rgba(34, 133, 179, 0.89);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a.link:hover {
+    text-decoration: underline;
+}
