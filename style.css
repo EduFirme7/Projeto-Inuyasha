@@ -18,9 +18,11 @@ body{
 :root{
     --fonte1: 'Anime';
 }
+
 header{
-   
+   width: 97vw;
 }
+
 header > img{ 
     transform: translate(0px, -40px);
     min-height: 150px;
@@ -28,18 +30,17 @@ header > img{
 }
 h1.cabecalho {
     font-family:var(--fonte1);
-    font-size: 22px;
+    font-size: 21px;
     background-color: #f3b14fe0;
     color: rgb(255, 0, 0);
     text-align: center;
-    width: 100vw;
+    width: 97vw;
     padding: 15px;
+    padding-left: 32px;
     box-shadow: 0px -5px 15px #ffbb00cb; 
-     transform: translate(-47px, -45px);
 }
 nav{ 
-    transform: translate(-30px, -45px);
-    margin: auto;
+    
     background-color: #cf3221;
     width: 100%;
     padding: 15px;
@@ -50,11 +51,11 @@ nav > a{
     color: #e69824;
     padding: 10px;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 7px;
-    margin: 0 30px;
+    margin: auto;
     transition-duration: 1s;
 }
 nav > a:hover{
@@ -68,14 +69,15 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    padding: 20px; 
+    padding: 30px; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
-    transform: translate(0px, -45px);
+  
 }
+
 article > h1 {
     text-align: center;
     font-family: var(--fonte1);
-    font-size: 2em;
+    font-size: 1.8em;
 }
 article > p {
     font-family: var(--fonte1);
