@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Anime';
+    src: url("fontes/HIROMISAKE.ttf");
+}
+
+body{
+    background-color: #fa1707e1;
+}
+
+
+:root{
+    --fonte1: 'Anime';
+}
+
+header{
+   width: 97vw;
+}
+
+header > img{ 
+    width: 75vw;
+    padding-left: 150px;
+    transform: translate(0px, -40px);
+    min-height: 150px;
+    padding-top: 50px
+}
+h1.cabecalho {
+    font-family:var(--fonte1);
+    font-size: 21px;
+    background-color: #f3b14fe0;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    width: 97vw;
+    padding: 15px;
+    padding-left: 32px;
+    box-shadow: 0px -5px 15px #ffbb00cb; 
+}
+nav{ 
+    
+    background-color: #cf3221;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0px 3px 6px #ffbb008a;
+ 
+}
+nav > a{   
+    color: #e69824;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: auto;
+    transition-duration: 1s;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: #e69824;
+    color: white;
+}
+
+main{
+    background-color: rgba(59, 143, 182, 0.89);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+  
+}
+
+article > h1 {
+    text-align: center;
+    font-family: var(--fonte1);
+    font-size: 1.8em;
+}
+article > p {
+    font-family: var(--fonte1);
+    text-align: justify;
+    padding: 10px;
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 2em;
+    color: white;
+    font-size: 1.3em;   
+}
+
+h2 {
+    font-family: var(--fonte1);
+    padding: 10px;
+    padding-left: 20px;
+    background-image: linear-gradient(to right,rgba(255, 81, 0, 0.685), transparent);
+}
+
+a.manga {
+    text-decoration: none;
+}
+
+img.animeInuyasha{
+    display: block;
+    margin: auto;
+    width: 60%;
+    box-shadow: -1px 3px 8px #000000b3;
+}
+img{
+    width: 100%;
+}
+
+.principal{
+    padding: 10px;
+    margin: auto;
+}
+
+section.filmes{
+    display: block;
+    background-color: white;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-left: 28px;
+}
+
+img.filme1{
+    max-width: 100px;
+    height: 137px;
+    margin: auto;
+}
+img.filme2{
+    max-width: 100px;
+    margin: auto;
+}
+
+img.filme3{
+    max-width: 100px;
+    margin: auto;
+}
+
+img.filme4{
+    max-width: 100px;
+    margin: auto;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+   
+}
+footer a.link{
+    text-decoration: none;
+    color:  rgba(34, 133, 179, 0.89);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a.link:hover {
+    text-decoration: underline;
+    border-radius: 5px;
+    background-color: #eabe3b;
+    padding: 7px;
+    transition-duration: 1s;
+}

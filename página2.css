@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+img.botao{
+    max-width: 50px;
+}
+
+h2.sub{
+    text-align: center;
+    margin-top: -55px;
+    padding: 15px;
+}
+
+
+
+div.video1{
+    background-color: rgba(62, 129, 73, 0.877);
+    padding: 30px;
+    position: relative;
+    padding-bottom: 47%;
+    margin: auto;
+}
+
+div.video1 > iframe{
+    position: absolute;
+    top: 14%;
+    left: 16%;
+    width: 66%;
+    height: 70%;
+}
+
+div.video2{
+    background-color: rgba(0, 0, 0, 0.822);
+    position: relative;
+    padding: 26%;
+}
+div.video2 > iframe{
+    position: absolute;
+    top: 14%;
+    left: 16%;
+    width: 66%;
+    height: 70%;
+}
